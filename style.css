@@ -1,0 +1,57 @@
+      /* składnia w CSS */
+      /* nazwa tegu html (np. h1, section, header, body..) { właściwość - property (np. color) : wartość - value (np. red) ;} */
+      body
+      {
+         font-family: Arial;
+         padding: 100px 0px;
+         background-color: rgb(196, 243, 40); /* reguła background-color nie jest dziedziczona ale wpływa na kolor tła pod sekcjami i nagłówkiem ponieważ i sekcja i nagłówek standardowo w CSS mają tło przezroczyste */
+      }
+      h4
+         {
+         font-size: 16px;
+         font-style: italic;
+         margin-top: 5px;
+         }
+      h3{font-size: 18px;
+         margin-top: 10px;
+         margin-bottom:5px;
+         }
+      h2 {
+         font-size: 20px;
+         margin-bottom: 0px;
+         margin-top:0px;
+         }
+      h1{
+         font-size: 32px;
+         margin-bottom: 5px;
+         margin-top:10px;
+         }
+      span
+         {
+         color: black;
+         margin-top: 5px;
+         margin-left: 0px;
+         } 
+      img{        
+         width: 120px;
+         height: 150px;
+         }
+      section,
+      header{
+         background-color:azure;
+         padding: 10px 60px 10px 60px; /*odległości nagłówka i sekcji od krańca strony i sąsiadujących sekcji */
+         width: 1000px; /* width to właściwość, a xxxpx - wartość*/
+         margin:0 auto;
+      }
+      header{
+         display:flex;
+         align-items: center; /*:flex-start;  :flex-stop;  :center; */
+         justify-content: space-around;          /* :space-around - wyrónuje odległości między elementami  :space-between - wyjustuje do prawej i do lewej */
+          } 
+      ul{
+         margin-block-start: 0px;
+         margin-block-end:4px;
+      }
+      header ul{
+         list-style:none
+      }
