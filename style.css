@@ -58,7 +58,7 @@
 @media print /* specjalny blok CSS, który uruchamia się wówczas gdy drukujemy stronę html np. do pliku pdf; czyli zapisy wewnątrz bluku dotyczą wyglądu wydruku */
 {
   body {
-    font-size: 12pt; /*czcionka wydruku 12pkt */
+    font-size: 12pt !important; /*czcionka wydruku 12pkt; słowo important oznacza, że nawet jeśli w css wielkość czcionki jest podana w pixwlax (px) to ma zostać nakryta przez 12p przy wydruku */
   }
   nav, footer {
 display: none; } /*pomiń w wydruku menu, stopkę, linki, przyciski */
