@@ -55,11 +55,11 @@
       header ul{
          list-style:none
       }
-@media print {
+@media print /* specjalny blok CSS, który uruchamia się wówczas gdy drukujemy stronę html np. do pliku pdf; czyli zapisy wewnątrz bluku dotyczą wyglądu wydruku */
+{
   body {
-    font-size: 12pt;
+    font-size: 12pt; /*czcionka wydruku 12pkt */
   }
   nav, footer {
-    display: none;
-  }
+display: none; } /*pomiń w wydruku menu, stopkę, linki, przyciski */
 }
